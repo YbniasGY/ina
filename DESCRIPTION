@@ -8,4 +8,6 @@ Description: Sample code for the internship on Network Analysis for authorship d
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends:
+    qgraph
 RoxygenNote: 6.0.1

@@ -9,5 +9,4 @@
 #'
 #' @docType package
 #' @name ina
-#' @import qgraph
 NULL
