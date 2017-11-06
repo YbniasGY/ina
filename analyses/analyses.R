@@ -5,12 +5,14 @@
 # First install the package ina - Internship on Network Analysis.
 devtools::install_github('mihaiconstantin/ina')
 
+# If devtools is not installed, you may run:
+install.packages('devtools')
+
 # Note that when you load this, qgraph is also being loaded.
 library(ina)
 
 # Set the working directory for outputing the graphs later.
-# setwd('your-directory-of-choice-here')
-setwd('C:/Users/M/Desktop/ina/analyses/graphs')
+setwd('your-directory-of-choice-here')
 
 # Checking the documentation for the load_data function gives
 # an overall idea about the datasets we have available.
