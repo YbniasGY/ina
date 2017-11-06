@@ -62,10 +62,7 @@ tesc_authors <- function() {
 
 	colnames(tesc_authors) <- c('Name', 'Department')
 
-	tesc_authors = as.data.frame(tesc_authors)
-	tesc_authors$Department = as.factor(tesc_authors$Department)
-
-	return(tesc_authors)
+	return(as.data.frame(tesc_authors))
 }
 
 
