@@ -2,16 +2,17 @@
 % Please edit documentation in R/plot_functions.R
 \name{plot_tesc_matrix}
 \alias{plot_tesc_matrix}
-\title{Plots 4 network graphs for either \code{tesc_matrix_1} or \code{tesc_matrix_3}.}
+\title{Plots 2 network graphs for either \code{tesc_matrix_1} or \code{tesc_matrix_3}.}
 \usage{
-plot_tesc_matrix(tesc_matrix_name, directed = FALSE)
+plot_tesc_matrix(tesc_matrix_name, size = c(8, 8))
 }
 \arguments{
 \item{tesc_matrix_name}{(character) The name of the TESC matrix to plot.
 The name, not the matrix itself.}
 
-\item{directed}{(bool) Enables or disables the \code{directed} parameter
-within \code{qgraph} function.}
+\item{size}{(vector) Vector of two integer values. First value represents the width
+of the graph, and the second reprsents the hight of the graph. Defaults to \code{c(15, 15)}.
+Uses inch as the unit of measurement.}
 }
 \description{
 The graphs are stored in the current working directory.

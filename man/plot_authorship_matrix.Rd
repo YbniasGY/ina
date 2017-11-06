@@ -2,13 +2,14 @@
 % Please edit documentation in R/plot_functions.R
 \name{plot_authorship_matrix}
 \alias{plot_authorship_matrix}
-\title{Plots 4 network graphs for either \code{authorship_matrix_1} or \code{authorship_matrix_1}.}
+\title{Plots a network graph for either \code{authorship_matrix_1} or \code{authorship_matrix_1}.}
 \usage{
-plot_authorship_matrix(authorship_matrix_name, directed = FALSE)
+plot_authorship_matrix(authorship_matrix_name, size = c(35, 35))
 }
 \arguments{
-\item{directed}{(bool) Enables or disables the \code{directed} parameter
-within \code{qgraph} function.}
+\item{size}{(vector) Vector of two integer values. First value represents the width
+of the graph, and the second reprsents the hight of the graph. Defaults to \code{c(35, 35)}.
+Uses inch as the unit of measurement.}
 
 \item{tesc_matrix_name}{(character) The name of the authorship matrix to plot.
 The name, not the matrix itself.}
