@@ -1,0 +1,11 @@
+Package: ina
+Type: Package
+Title: Internship Network Analysis
+Version: 0.1.0
+Author: M. A. Constantin
+Maintainer: M. A. Constantin <m.a.constantin@uvt.nl>
+Description: Sample code for the internship on Network Analysis for authorship data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
