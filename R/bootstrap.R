@@ -32,7 +32,7 @@
 #'   represents the collaboration on a paper, where \code{Xn} are the external
 #'   authors, and Alice, Bob, and Beth are TSB employees. The order of the authors reflects
 #'   the order presented on the pure.uvt.nl.
-#'   \item The external employees are removed and the \code{col} vector holds only the TSB employees. 
+#'   \item The external employees are removed and the \code{col} vector holds only the TSB employees.
 #'   For this example, the result will be \code{"Alice", "Bob", "Beth"}.
 #'   \item The resulting order is important because the first TSB in the vector represents the
 #'   node of origin and the rest the nodes of destination.
@@ -43,7 +43,7 @@
 #' To use these datasets simply type their names in your scripts.
 #'
 #' @export
-load_data <- function() {
+load_ina_data <- function() {
 
 	demo <- tesc_matrix(authorship_data_1, tesc_data, verbose = T)
 	rm(demo)
@@ -61,5 +61,4 @@ load_data <- function() {
 	cat('\t', '- authorship_matrix_1', '\n')
 	cat('Please check the documentation for "load_data" for a detailed description of these datasets.', '\n\n')
 	cat('The list of TESC collaborators was determined based on the document obtained from Loes.', '\n')
-
 }
