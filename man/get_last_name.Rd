@@ -10,7 +10,7 @@ get_last_name(full_name)
 \item{full_name}{(string or vector)}
 }
 \description{
-Tried against these scenarios: D.M. Beneken Genaamd Kolmer, M.J. Brandt, Geert H. van Kollenburg, Jac J. L. van der Klink, L.V. van de Poll-Franse, 
+Tried against these scenarios: D.M. Beneken Genaamd Kolmer, M.J. Brandt, Geert H. van Kollenburg, Jac J. L. van der Klink, L.V. van de Poll-Franse,
 Y.T.M. Vanneste-van Zandvoort, M.A.L.M. vanAssen, L.V. van de PollFranse, L.V. van de PFranse, E.A.L. De Caluw? (? = special character).
 }
 \details{
