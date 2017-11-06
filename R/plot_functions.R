@@ -142,6 +142,7 @@ plot_authorship_matrix <- function(authorship_matrix_name, size = c(35, 35)) {
 
 	colors_membership = rep('white', dim(authorship_matrix)[1])
 	colors_membership[extract_tesc_authors(authorship_matrix)] = 'green'
+	colors_membership[find_name('Cramer', labels)] = 'blue'
 
 
 	qgraph(
