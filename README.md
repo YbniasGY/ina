@@ -18,15 +18,4 @@ devtools::install('mihaiconstantin/ina')
 plot_tesc_matrix('tesc_matrix_3')
 ```
 
-Output:
-
-- [Authorship collaboration between TESC members for 2015-2018 per department](https://github.com/mihaiconstantin/ina/blob/master/analyses/graphs/tesc_matrix_3_department.png)
-
-![Authorship collaboration between TESC members for 2015-2018 per department](https://raw.githubusercontent.com/mihaiconstantin/ina/master/analyses/graphs/tesc_matrix_3_department.png "Authorship collaboration between TESC members for 2015-2018 per department")
-
-- [Authorship collaboration between TESC members for 2015-2018 and publication status](https://github.com/mihaiconstantin/ina/blob/master/analyses/graphs/tesc_matrix_3_published.png)
-
-![Authorship collaboration between TESC members for 2015-2018 and publication status](https://raw.githubusercontent.com/mihaiconstantin/ina/master/analyses/graphs/tesc_matrix_3_published.png "Authorship collaboration between TESC members for 2015-2018 and publication status")
-
-
 > This package depends on the [`qgraph`](https://github.com/SachaEpskamp/qgraph) for plotting the networks and more.
