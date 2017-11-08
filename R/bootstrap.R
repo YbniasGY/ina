@@ -45,8 +45,20 @@
 #' @export
 load_ina_data <- function() {
 
+	# Some visual feedback for clarity.
 	demo <- tesc_matrix(authorship_data_1, tesc_data, verbose = T)
 	rm(demo)
+
+	# Making the datasets available.
+	data(csv_scarped_data_3)
+	data(csv_scarped_data_1)
+	data(authorship_data_3)
+	data(authorship_data_1)
+	data(tesc_data)
+	data(tesc_matrix_3)
+	data(tesc_matrix_1)
+	data(authorship_matrix_3)
+	data(authorship_matrix_1)
 
 	cat('\n')
 	cat('The following datasets are available:\n')
